@@ -1,0 +1,58 @@
+# 5 Alternative prompts that generate unit tests for an existing C# class and measure code coverage improvement
+
+
+prompting structure formula : [ROLE]+[TASK]+[Context]+[Constraints]+[Example]
+
+
+
+Prompt 1: Zero-shot Prompting
+You are a professional C# developer. Given the following C# class (delimited by triple quotes), 
+write comprehensive unit tests for it. After generating the tests, estimate the code coverage percentage these tests would achieve.
+"""{C# code}"""
+
+
+
+Prompt 2: Few-shot Prompting
+Below are examples of C# code and their corresponding unit tests.
+
+Example:
+C# code:
+public int Add(int a, int b) => a + b;
+
+Unit test:
+[TestMethod]
+public void Add_ReturnsSum()
+{
+    Assert.AreEqual(5, Add(2, 3));
+}
+
+Now, for the following C# class (delimited by triple quotes), generate similar unit tests and estimate the code coverage improvement.
+"""{C# code}"""
+
+
+
+
+Prompt 3: Iterative Prompting
+
+Step 1: Generate basic unit tests for the following C# class (delimited by triple quotes).
+Step 2: Analyze which parts of the code are not covered by these tests.
+Step 3: Generate additional tests to improve code coverage and report the new coverage percentage.
+"""{C# code}"""
+
+
+
+Prompt 4: Re-prompting for Coverage Gaps
+Given the C# class below (delimited by triple quotes), first generate unit tests. Then, review the code to identify any untested branches or methods. Re-prompt yourself to write additional tests for those gaps and summarize the code coverage improvement.
+"""{C# code}"""
+
+
+
+
+Prompt 5: Chain-of-Thought Prompting
+Think step by step:
+
+Read the C# class below (delimited by triple quotes).
+Identify all public methods and their possible edge cases.
+Write unit tests to cover these cases.
+Estimate the code coverage before and after your tests.
+"""{C# code}"""
