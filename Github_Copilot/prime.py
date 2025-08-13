@@ -1,4 +1,4 @@
-# generate code for to get the all the prime numbers in a given range
+# generate code to get the prime numbers in a given range
 
 def is_prime(n):
     """Check if a number is prime."""
