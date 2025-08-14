@@ -1,0 +1,55 @@
+**************** CREATE and RUN PORJECT **********************
+
+dotnet new console -n LibraryApp
+cd LibraryApp
+
+dotnet run
+
+
+
+
+************** ADD UNIT TESTS PORJECT ************************
+
+
+ ----------------------------------------
+|                                        |
+|          cd.. before doing testing     |
+|                                        |
+ ----------------------------------------
+
+# Go one level up to create a solution
+cd ..
+dotnet new sln -n LibrarySolution
+
+# Add our main project
+dotnet sln add LibraryApp/LibraryApp.csproj
+
+# Create a Unit Test project with xUnit
+dotnet new xunit -n LibraryApp.Tests
+dotnet sln add LibraryApp.Tests/LibraryApp.Tests.csproj
+
+# Add reference to main project from test project
+dotnet add LibraryApp.Tests/LibraryApp.Tests.csproj reference LibraryApp/LibraryApp.csproj
+
+
+
+
+************** INSTALL COVERAGE TOOLS ***********************
+
+dotnet add LibraryApp.Tests package coverlet.collector
+
+
+
+*************** RUN TESTS ************************************
+
+dotnet test --collect:"xplat code coverage"
+
+
+
+***************** TO VIEW IN HTML ****************************
+
+dotnet tool install -g dotnet-reportgenerator-globaltool
+reportgenerator -reports:"LibraryApp.Tests/TestResults/**/coverage.cobertura.xml" -targetdir:"coveragereport"
+
+
+coveragereport/index.html
