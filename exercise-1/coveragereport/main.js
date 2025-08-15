@@ -213,14 +213,14 @@ var assemblies = [
   {
     "name": "LibraryApp",
     "classes": [
-      { "name": "LibraryApp.Models.Author", "rp": "LibraryApp_Author.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "LibraryApp.Models.Book", "rp": "LibraryApp_Book.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "LibraryApp.Models.Author", "rp": "LibraryApp_Author.html", "cl": 1, "ucl": 1, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "LibraryApp.Models.Book", "rp": "LibraryApp_Book.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "LibraryApp.Models.Librarian", "rp": "LibraryApp_Librarian.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "LibraryApp.Models.Loan", "rp": "LibraryApp_Loan.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "LibraryApp.Models.Member", "rp": "LibraryApp_Member.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "LibraryApp.Program", "rp": "LibraryApp_Program.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 29, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "LibraryApp.Program", "rp": "LibraryApp_Program.html", "cl": 0, "ucl": 32, "cal": 32, "tl": 46, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "LibraryApp.Services.BookService", "rp": "LibraryApp_BookService.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "LibraryApp.Services.LoanService", "rp": "LibraryApp_LoanService.html", "cl": 28, "ucl": 1, "cal": 29, "tl": 50, "cb": 7, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "LibraryApp.Services.LoanService", "rp": "LibraryApp_LoanService.html", "cl": 28, "ucl": 1, "cal": 29, "tl": 50, "cb": 8, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "LibraryApp.Services.MemberService", "rp": "LibraryApp_MemberService.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "LibraryApp.Services.NotificationService", "rp": "LibraryApp_NotificationService.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "LibraryApp.Services.ReportService", "rp": "LibraryApp_ReportService.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
