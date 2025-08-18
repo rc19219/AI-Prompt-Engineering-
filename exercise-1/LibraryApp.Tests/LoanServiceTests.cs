@@ -57,7 +57,7 @@ public void ReturnBook_BookWasNotBorrowed_ShouldThrowException()
     bookService.AddBook(book);
     memberService.AddMember(member);
 
-    // Act & Assert
+    Act & Assert
     Assert.Throws<InvalidOperationException>(() =>
         loanService.ReturnBook(book.Id)
     );

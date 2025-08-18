@@ -1,0 +1,22 @@
+JAVA OOPS Priniciple
+
+Detailed Notes:
+1. Encapsulation:
+   - Encapsulation is the process of wrapping data (variables) and code (methods) together as a single unit.
+   - It restricts direct access to some of an object's components, which is achieved using access modifiers (private, protected, public).
+   - Example: Declaring fields as private and providing public getter/setter methods.
+
+2. Inheritance:
+   - Inheritance allows one class to acquire the properties and behaviors (methods) of another class.
+   - Promotes code reusability and establishes a parent-child relationship.
+   - Example: class Dog extends Animal { ... }
+
+3. Polymorphism:
+   - Polymorphism means "many forms". It allows objects to be treated as instances of their parent class rather than their actual class.
+   - Achieved through method overriding (runtime polymorphism) and method overloading (compile-time polymorphism).
+   - Example: Animal a = new Dog(); a.makeSound();
+
+4. Abstraction:
+   - Abstraction is the concept of hiding complex implementation details and showing only the necessary features of an object.
+   - Achieved using abstract classes and interfaces.
+   - Example: abstract class Shape { abstract void draw(); }

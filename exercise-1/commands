@@ -10,10 +10,9 @@ dotnet run
 
 ************** ADD UNIT TESTS PORJECT ************************
 
-
  ----------------------------------------
 |                                        |
-|          cd.. before doing testing     |
+|          cd .. before doing testing    |
 |                                        |
  ----------------------------------------
 
