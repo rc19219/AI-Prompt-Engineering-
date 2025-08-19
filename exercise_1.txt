@@ -13,7 +13,7 @@ write comprehensive unit tests for it. After generating the tests, estimate the 
 
 
 Prompt 2: Few-shot Prompting
-Below are examples of C# code and their corresponding unit tests.
+Below are examples of C# code and their corresponding unit tests
 
 Example:
 C# code:
